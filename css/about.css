@@ -1,0 +1,154 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(https://images.unsplash.com/photo-1483412033650-1015ddeb83d1?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=753&q=80);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+header ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+}
+
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color: #ffffff;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+}
+
+ul li a:hover{
+	background-color: #ffffff;
+	color: #000000;
+}
+
+.logo img{
+	float: left;
+	width: 150px;
+	height: auto;
+	border: transparent;
+}
+
+.main{
+	max-width: 1200px;
+	margin: auto;
+}
+
+.title{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-150%,-50%);
+    text-align: center;
+}
+
+.title h1{
+	color: #ffffff;
+	font-size: 70px;
+}
+.title p{
+	color: #ffffff;
+}
+
+.read h1{
+	color: red;
+	text-decoration: overline underline black;
+
+	position: absolute;
+	top: 115%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+    text-align: center;
+    font-size: 60px;
+}
+
+.about-img img{
+	float: right;
+	margin-top: 20%;
+	margin-right: 10%;
+	max-width: 400px;
+}
+
+.p{
+   
+   margin-left: 5%;
+   margin-top: 20%;
+   font-weight: 500;
+
+}
+
+.p h3{
+	color: red;
+}
+
+.p p{
+	text-align: left;
+}
+
+.name h3{
+	font-family: Century Gothic;
+    position: absolute;
+    margin-top: 3%;
+    margin-left: 42%;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.name h5{
+	font-family: 'Lato' sans-serif;
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 44%;
+    font-size: 19px;
+    font-weight: 400;
+    color: #aaa;
+
+}
+
+.footer1 p{
+	color: #ffffff;
+
+	margin-top: 10%;
+	text-align: center;
+	font-weight: 600;
+	border: 1px solid red transparent;
+	background-color: #ff1a1a;
+	font-size: 15px;
+}
+
+.footer2{
+    background-image: url(overlay.png);
+	padding: 30px 0px;
+
+}
+
+.footer2 img.fb{
+	color: white;
+	width: 50px;
+	margin-left: 42%;
+}
+
+
+.footer2 img.twitter{
+	width: 50px;
+	margin-left: 2%;
+}
+
+
+
+.footer2 img.whatsapp{
+	width: 50px;
+	margin-left: 2%;
+}
